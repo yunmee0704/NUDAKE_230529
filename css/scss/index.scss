@@ -1,3 +1,23 @@
-@import "css/reset.css";
-@import "layout.scss";
-@import "common.scss"
+
+.section{
+height: 100%;
+img{
+    height: 100vh;
+    width: 100vw;
+}
+.visual-list{
+    .slick-slide{
+        opacity: 0.2;
+  
+        &.slick-active{
+        >figure{
+            opacity:1;
+            transform: scale(1.15);
+            transition: 4000ms;
+        }
+        }
+
+    }
+}
+
+}

@@ -1,0 +1,21 @@
+.section {
+  height: 100%;
+}
+
+.section img {
+  height: 100vh;
+  width: 100vw;
+}
+
+.section .visual-list .slick-slide {
+  opacity: 0.2;
+}
+
+.section .visual-list .slick-slide.slick-active > figure {
+  opacity: 1;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 4000ms;
+  transition: 4000ms;
+}
+/*# sourceMappingURL=index.css.map */
