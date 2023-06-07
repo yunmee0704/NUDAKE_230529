@@ -1,21 +1,209 @@
-.section {
+.container-bg {
   height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
-.section img {
+.container-bg img {
   height: 100vh;
   width: 100vw;
 }
 
-.section .visual-list .slick-slide {
+.container-bg .bg-list .slick-slide {
   opacity: 0.2;
 }
 
-.section .visual-list .slick-slide.slick-active > figure {
+.container-bg .bg-list .slick-slide.slick-active > figure {
   opacity: 1;
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   -webkit-transition: 4000ms;
   transition: 4000ms;
+}
+
+.container-contents {
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-contents .section-gnb {
+  padding: 120px 50px;
+  width: 20%;
+}
+
+.container-contents .section-gnb .logo {
+  width: 180px;
+  height: 125px;
+  margin-bottom: 100px;
+}
+
+.container-contents .section-gnb .logo a {
+  width: 100%;
+}
+
+.container-contents .section-gnb .logo a img {
+  width: 100%;
+}
+
+.container-contents .section-gnb .gnb-list li {
+  width: 100%;
+  height: 36px;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.container-contents .section-gnb .gnb-list li::Before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #3B9182;
+  border-radius: 50px;
+  vertical-align: 1px;
+  margin-right: 16px;
+}
+
+.container-contents .section-gnb .sns-list {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-contents .section-gnb .sns-list a {
+  width: 30px;
+  height: 30px;
+}
+
+.container-contents .section-gnb .sns-list a i {
+  display: inline-block;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.container-contents .section-main {
+  width: 60%;
+  margin-top: 100px;
+}
+
+.container-contents .section-main .article {
+  margin: 0 auto;
+  padding: 50px 20px;
+  width: 390px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-contents .section-main .article:nth-child(2n-1) {
+  background-color: #fafac7;
+  color: #005C4C;
+}
+
+.container-contents .section-main .article:nth-child(2n) {
+  background-color: #f6f6f6;
+}
+
+.container-contents .section-main .article > h2 {
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.container-contents .section-main .article img, .container-contents .section-main .article iframe {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.container-contents .section-main .article h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container-contents .section-main .article p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container-contents .section-main .article > div {
+  margin-bottom: 80px;
+}
+
+.container-contents .section-main .article a {
+  display: block;
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 3;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.container-contents .section-main .article.cont1 {
+  padding: 0;
+  position: relative;
+}
+
+.container-contents .section-main .article.cont1 > div {
+  margin-bottom: 0;
+}
+
+.container-contents .section-main .article.cont1 .bg-list {
+  width: 100%;
+}
+
+.container-contents .section-main .article.cont1 .bg-list img {
+  display: inline-block;
+  width: 390px;
+  height: 600px;
+  margin-bottom: 0;
+}
+
+.container-contents .section-main .article.cont1 .title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.container-contents .section-main .article.cont1 .title h2 {
+  font-size: 80px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.container-contents .section-main .article.cont5 {
+  color: #fff;
+  background-color: #005C4C;
+}
+
+.container-contents .section-main .article.cont5 h2 {
+  margin-top: -50px;
+  text-align: center;
+}
+
+.container-contents .section-main .article.cont5 a {
+  color: #005C4C;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,44 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUDAKE</title>
-    <!-- css -->
-    <link rel="stylesheet" href="./css/css/layout.css">
-    <link rel="stylesheet" href="./css/css/index.css">
-    <!-- script -->
-    <script src="./js/jquery-1.12.4.min.js"></script>
-    <!-- slick -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!--slick -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUDAKE</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./css/css/layout.css">
+  <link rel="stylesheet" href="./css/css/index.css">
+  <!-- script -->
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!--slick -->
 </head>
+
 <body>
-    <div class="section visual">
-        <div class="visual-list">
-            <div><figure><img src="./img/bg_1.jpg" alt=""></figure></div>
-            <div><figure><img src="./img/bg_2.jpg" alt=""></figure></div>
+  <div class="container-bg">
+    <div class="bg-list">
+      <div>
+        <figure><img src="./img/bg_1.jpg" alt=""></figure>
+      </div>
+      <!-- <div><figure><img src="./img/bg_2.jpg" alt=""></figure></div>
             <div><figure><img src="./img/bg_3.jpg" alt=""></figure></div>
-            <div><figure><img src="./img/bg_4.jpg" alt=""></figure></div>         
-        </div>
+            <div><figure><img src="./img/bg_4.jpg" alt=""></figure></div>          -->
     </div>
-<script>
-    $(function(){
-        $('.visual-list').slick({
-            dots: false,
-            arrows:false,
-            slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 4000,
-  infinite: true,
-  fade: true,
-  speed:4000,
-  cssEase: 'linear'
-        });
+  </div>
+
+  <div class="container-contents">
+    <div class="section-gnb">
+      <h1 class="logo">
+        <a href=""><img src="./img/bg_1.jpg" alt=""></a>
+      </h1>
+      <ul class="gnb-list">
+        <li><a href="">PAGE-TOP</a></li>
+        <li><a href="">CONCEPT</a></li>
+        <li><a href="">BOTANIST FOREST</a></li>
+        <li><a href="">MOVIE CONTENTS</a></li>
+        <li><a href="">CAMPAIGN</a></li>
+      </ul>
+      <div class="sns-list">
+        <a href=""><i></i></a>
+        <a href=""><i></i></a>
+        <a href=""><i></i></a>
+        <a href=""><i></i></a>
+      </div>
+    </div>
+
+    <div class="section-main">
+      <div class="article cont1">
+        <h2 class="logo"></h2>
+        <div class="bg-list">
+          <div>
+            <figure><img src="./img/top_visual.jpg" alt=""></figure>
+          </div>
+          <!-- <div>
+            <figure><img src="" alt=""></figure>
+          </div> -->
+        </div>
+        <div class="title">
+          <h2>GREEN</h2>
+          <h2>WISHS</h2>
+          <p class="subtitle">International Mountain Day 2022</p>
+        </div>       
+      </div>
+      <div class="article cont2">
+        <h2>SECTION TITLE</h2>
+        <div class="box1">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><img src="./img/bg_1.jpg" alt=""></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+        </div>
+        <div class="box2">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><img src="./img/bg_1.jpg" alt=""></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+        </div>
+        <div class="box3">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><img src="./img/bg_1.jpg" alt=""></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+        </div>
+      </div>
+      <div class="article cont3">
+        <h2>SECTION TITLE</h2>
+        <div class="box1">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><img src="./img/bg_1.jpg" alt=""></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+          <a href="">예약하기</a>
+        </div>
+        <div class="box2">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><img src="./img/bg_1.jpg" alt=""></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+          <a href="">예약하기</a>
+        </div>
+        <div class="box3">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><img src="./img/bg_1.jpg" alt=""></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+          <a href="">예약하기</a>
+        </div>
+      </div>
+      <div class="article cont4">
+        <h2>SECTION TITLE</h2>
+        <div class="box1">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><iframe src="//www.youtube.com/embed/fbio7ShsLP4" frameborder="0"></iframe></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+        </div>
+        <div class="box2">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><iframe src="//www.youtube.com/embed/fbio7ShsLP4" frameborder="0"></iframe></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+        </div>
+        <div class="box3">
+          <h3>타이틀 타이틀 타이틀 타이틀</h3>
+          <figure><iframe src="//www.youtube.com/embed/fbio7ShsLP4" frameborder="0"></iframe></figure>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+        </div>
+      </div>
+      <div class="article cont5">
+        <figure><img src="./img/bg_1.jpg" alt=""></figure>
+        <h2>EVENT</h2>
+        <h3>타이틀 타이틀 타이틀 타이틀</h3>
+        <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용</p>
+          <p>내용 내용 내용 내용 내용 내용</p>
+          <a href="">참가하기</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+      //         $('.visual-list').slick({
+      //             dots: false,
+      //             arrows:false,
+      //             slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   autoplay: true,
+      //   autoplaySpeed: 4000,
+      //   infinite: true,
+      //   fade: true,
+      //   speed:4000,
+      //   cssEase: 'linear'
+      //         });
     })
-</script>
+  </script>
 </body>
+
 </html>
